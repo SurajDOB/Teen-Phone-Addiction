@@ -5,7 +5,7 @@ This project analyzes patterns in teen mobile phone usage and addiction levels u
 ---
 
 ## 📁 Dataset
-- **Source**: [Mention if it’s real or synthetic]
+- **Source**: [Practice dataset from Kaggle]
 - **Fields**: Gender, daily screen time, app usage, addiction level, etc.
 
 ---
