@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns 
 
 #Data loading
-df = pd.read_excel("D:\DA practice\TeenPhoneAddictionDatasetAnalysis.xlsx")
+df = pd.read_excel("D:\DA practice\Teen Phone Addiction\TeenPhoneAddictionDatasetAnalysis.xlsx")
 print(df.head(10))
 
 #check columns names and info
@@ -95,7 +95,7 @@ plt.ylabel('Avg Addiction Level')
 plt.grid(True)
 plt.show()
 
-boxplot: Apps used daily vs addiction level
+# boxplot: Apps used daily vs addiction level
 sns.boxplot(data=df, x='AddictionLevel', y='AppsUsedDaily')
 plt.title("Addiction level vs Daily App Usage")
 plt.show()
